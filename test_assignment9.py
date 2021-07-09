@@ -27,17 +27,17 @@ def test_get_average_age():
 def test_faster_get_average_age():
 	N = 100
 	a = Assignment9.faster(N,Assignment9.get_average_age,fake_profiles,fake_profiles_dict)
-	assert a == 'named tuple is faster',"dictionary is faster"
+	assert "is faster" in a,"incorrect output"
 
 def test_faster_get_largest_blood_group():
 	N = 100
 	a = Assignment9.faster(N,Assignment9.get_largest_blood_group,fake_profiles,fake_profiles_dict)
-	assert a == 'named tuple is faster',"dictionary is faster"
+	assert "is faster" in a,"incorrect output"
 
 def test_faster_get_oldest_birthdate():
 	N = 100
 	a = Assignment9.faster(N,Assignment9.get_oldest_birthdate,fake_profiles,fake_profiles_dict)
-	assert a == 'named tuple is faster',"dictionary is faster"
+	assert "is faster" in a,"incorrect output"
 
 def test_get_average_time():
 	def add(x,y):
@@ -49,7 +49,7 @@ def test_get_average_time():
 def test_faster_get_fake_profiles():
 	N = 100
 	a = Assignment9.faster(N,Assignment9.get_fake_profiles,fake_profiles,fake_profiles_dict)
-	assert a == 'named tuple is faster',"dictionary is faster"
+	assert "is faster" in a,"incorrect output"
 
 def test_get_company_stock():
 	stock_list = [company_stck(*Assignment9.get_company_stock(volatility = uniform(.02, .2),direction=choice(['+ve','-ve'])),w) for w in weights]

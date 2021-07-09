@@ -1,6 +1,6 @@
-# Tuples and Namedtuples in Python
+# Tuples and Namedtuples
 
-## Part 1 - Is Namedtuples faster than dicstionaries?
+## Part 1 
 
 The 4 step problem definition :
 
@@ -139,4 +139,4 @@ def get_company_stock(volatility,direction):
 
 # Test cases
 
-Both the problem solutions are tested against numerous test cases. All the test cases can be found in file `test_session9.py`.
+Both the problem solutions are tested against numerous test cases. All the test cases can be found in file `test_assignment9.py`.
